@@ -2,4 +2,71 @@
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/mobile_navigation" />
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/navigation_splash">
+    <fragment
+        android:id="@+id/navigation_splash"
+        android:name="com.tineo.cik.ui.Splash"
+        android:label="fragment_splash"
+        tools:layout="@layout/fragment_splash" />
+    <fragment
+        android:id="@+id/navigation_login"
+        android:name="com.tineo.cik.ui.Login"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" />
+    <fragment
+        android:id="@+id/navigation_register"
+        android:name="com.tineo.cik.ui.Register"
+        android:label="fragment_register"
+        tools:layout="@layout/fragment_register" />
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.tineo.cik.ui.Home"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="com.tineo.cik.ui.Profile"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/navigation_delete"
+        android:name="com.tineo.cik.ui.Delete"
+        android:label="fragment_delete"
+        tools:layout="@layout/fragment_delete" />
+    <fragment
+        android:id="@+id/navigation_education"
+        android:name="com.tineo.cik.ui.Education"
+        android:label="fragment_education"
+        tools:layout="@layout/fragment_education" />
+    <fragment
+        android:id="@+id/navigation_feedback"
+        android:name="com.tineo.cik.ui.Feedback"
+        android:label="fragment_feedback"
+        tools:layout="@layout/fragment_feedback" />
+    <fragment
+        android:id="@+id/navigation_prayer"
+        android:name="com.tineo.cik.ui.Prayer"
+        android:label="fragment_prayer"
+        tools:layout="@layout/fragment_prayer" />
+    <fragment
+        android:id="@+id/navigation_privacy"
+        android:name="com.tineo.cik.ui.Privacy"
+        android:label="fragment_privacy"
+        tools:layout="@layout/fragment_privacy" />
+    <fragment
+        android:id="@+id/navigation_streak"
+        android:name="com.tineo.cik.ui.Streak"
+        android:label="fragment_streak"
+        tools:layout="@layout/fragment_streak" />
+    <fragment
+        android:id="@+id/navigation_edit"
+        android:name="com.tineo.cik.ui.Edit"
+        android:label="fragment_edit"
+        tools:layout="@layout/fragment_edit" />
+    <fragment
+        android:id="@+id/navigation_settings"
+        android:name="com.tineo.cik.ui.Settings"
+        android:label="fragment_settings"
+        tools:layout="@layout/fragment_settings" />
+</navigation>
